@@ -278,8 +278,79 @@ body{
 	width: 6rem;
 }
 
+
+/* Dark Mode */
+.body-dark{
+		background-color: rgba(0, 0, 0, 0.80);
+		color: #f1f1f1;
+		transition: 1s all;
+	}
+
+	.section-title-dark{
+		color: #48dbfb;
+	}
+
+/* Services Section styles */
+/* #services{
+	width: 100%;
+	margin: 0 auto;
+	padding: 3rem 0;
+} */
+section.dark{
+	background-color: #353b48;
+}
+
+section.dark .section-title{
+	color: #f1f1f1;
+}
+
+section.dark .section-title::before{
+	background-color: #f1f1f1;
+}
+section.dark .section-title::after{
+	border: 4px solid #353b48;
+}
+.services{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service{
+	width: calc(25% - 20px);
+	text-align: center;
+	border: 2px solid #48dbfb;
+	border-radius: 4px;
+	margin: 1.5rem 0;
+	padding: 2.5rem 1.5rem;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s linear;
+}
+
+.service .icon{
+	color: #48dbfb;
+	font-size: 4rem;
+	margin-bottom: 1.5rem;
+	transition: .5s linear;
+}
+.service:hover .icon{
+	color: #fff;
+}
+
+.service h4{
+	font-size: 1rem;
+	margin-bottom: .5rem;
+}
+
+.service:hover{
+	background-color:#48dbfb ;
+}
+
+
+
 /* Media Queries */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 980px){
 	.inner-width{
 		max-width: 800px;
 	}
@@ -303,6 +374,11 @@ body{
 	.about-text h2{
 		margin-top: -3rem;
 	}
+	.service{
+		width: calc(48% - 20px);
+		padding: 1rem 0.5rem;
+		margin: 1rem 0;
+	}
 }
 
 @media only screen and (max-width: 669px){
@@ -320,15 +396,7 @@ body{
 		margin: 1rem;
 		margin-right: -2rem;
 	}
+	.service{
+		width: calc(100% - 20px)
+	}
 }
-
-/* Dark Mode */
-.body-dark{
-		background-color: rgba(0, 0, 0, 0.80);
-		color: #f1f1f1;
-		transition: 1s all;
-	}
-
-	.section-title-dark{
-		color: #48dbfb;
-	}
