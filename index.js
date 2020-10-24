@@ -9,10 +9,10 @@ $(document).ready(function () {
 });
 
 
-
+// Dark Mode scripts
 $(".derk").click(function () {
     $("body").toggleClass("body-dark");
-    $(".section-title").toggleClass("section-title-dark");
-    $(".den").toggleClass("section-title-dark");
+    $(".section-title").toggleClass("section-title-dark")
+    $(".den").toggleClass("section-title-dark")
 
 })
