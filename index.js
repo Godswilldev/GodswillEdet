@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
 
-$(".dark").click(function () {
+$(".derk").click(function () {
     $("body").toggleClass("body-dark");
     $(".section-title").toggleClass("section-title-dark")
     $(".den").toggleClass("section-title-dark")
