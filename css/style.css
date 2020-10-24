@@ -291,11 +291,11 @@ body{
 	}
 
 /* Services Section styles */
-/* #services{
-	width: 100%;
+#services{
+/* 	width: 100%; */
 	margin: 0 auto;
 	padding: 3rem 0;
-} */
+}
 section.dark{
 	background-color: #353b48;
 }
