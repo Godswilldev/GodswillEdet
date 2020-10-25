@@ -386,7 +386,7 @@ section.dark .section-title::after{
 
 .block p{
 	font-size: 1rem;
-	color: #444;
+/* 	color: #444; */
 }
 
 /* Works styles */
