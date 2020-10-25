@@ -6,6 +6,12 @@ $(document).ready(function () {
     $(".siden").removeClass("sticky")
 }  
     })
+    
+    $('.works').magnificPopup({
+    delegate: "a",
+    type: "image",
+    gallery: {enabled: true}
+})
 });
 
 
@@ -14,5 +20,7 @@ $(".derk").click(function () {
     $("body").toggleClass("body-dark");
     $(".section-title").toggleClass("section-title-dark")
     $(".den").toggleClass("section-title-dark")
+    $("h3").toggleClass("h3-dark")
+    $("h4").toggleClass("h3-dark")
 
 })
