@@ -13,7 +13,7 @@ html{
 }
 
 ::-webkit-scrollbar{
-	width: 10px;
+	width: .7rem;
 	background-color: #f1f1f1;
 }
 
@@ -41,6 +41,7 @@ html{
 	text-align: left;
 	margin-right: -50%;
 	text-align: center;
+	cursor: pointer;
 }
 
 .navbar{
@@ -284,10 +285,11 @@ html{
 .skills h2{
 	font-size: 2rem;
 	margin-bottom: 3rem;
+	margin-top: 5rem;
 }
 
 .skill{
-	width: calc(50% - 2rem);
+	width: calc(50% - -8rem);
 	margin: 1rem 0;
 }
 .skill-image img{
@@ -410,6 +412,9 @@ section.dark .section-title::after{
 	margin-top: 6rem;
 	padding-top: 4rem;
 	margin-bottom: 4rem;
+}
+.works{
+	padding-bottom: 5rem;
 }
 
 .work{
@@ -650,6 +655,9 @@ footer{
 		width: 100%;
 		margin: 10px 0;
 	}
+	.skills h2{
+		margin-top: 0;
+	}
 }
 
 @media only screen and (max-width: 669px){
@@ -675,6 +683,11 @@ footer{
 	}
 	.Namezone, .emailzone{
 		max-width: 100%;
+	}
+	.skills h2{
+		font-size: 2rem;
+		margin-bottom: 1rem;
+		margin-top: 0rem;
 	}
 }
 
