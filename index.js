@@ -28,7 +28,7 @@ $("section, footer").ripples({
     perturbance: 0.04,
     interactive: true,
 });
-$("section, footer").ripples("drop", 0.5, 0.5, 1, 2)
+$("section, footer").ripples("drop", 0.5, 0.5, 1, 1)
 $("section, footer").ripples("play")
 
 
