@@ -20,6 +20,18 @@ $(document).ready(function () {
     })
 });
 
+// jQuery Ripples
+
+$("section, footer").ripples({
+    resolution: 250,
+    dropRadius: 20,
+    perturbance: 0.04,
+    interactive: true,
+});
+$("section, footer").ripples("drop", 2, 3, 4, 5)
+$("section, footer").ripples("play")
+
+
 
 // Dark Mode scripts
 $(".derk").click(function () {
