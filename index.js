@@ -35,8 +35,8 @@ $(document).ready(function () {
 // jQuery Ripples
 
 $("section, footer").ripples({
-    resolution: 50,
-    dropRadius: 2,
+    resolution: 10,
+    dropRadius: 0.2,
     perturbance: 0.01,
     interactive: true,
 });
