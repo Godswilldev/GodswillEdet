@@ -35,12 +35,12 @@ $(document).ready(function () {
 // jQuery Ripples
 
 $("section, footer").ripples({
-    resolution: 100,
-    dropRadius: 10,
-    perturbance: 0.02,
+    resolution: 50,
+    dropRadius: 2,
+    perturbance: 0.01,
     interactive: true,
 });
-$("section, footer").ripples("drop", 0.1, 0.1, 0.5, 0.5)
+$("section, footer").ripples("drop", 0.02, 0.02, 0.1, 0.1)
 $("section, footer").ripples("play")
 
 
