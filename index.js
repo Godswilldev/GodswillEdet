@@ -34,15 +34,6 @@ $(document).ready(function () {
 
 // jQuery Ripples
 
-$("section, footer").ripples({
-    resolution: 10,
-    dropRadius: 0.2,
-    perturbance: 0.01,
-    interactive: true,
-});
-$("section, footer").ripples("drop", 0.02, 0.02, 0.1, 0.1)
-$("section, footer").ripples("play")
-
 
 
 // Dark Mode scripts
