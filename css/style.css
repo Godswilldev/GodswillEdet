@@ -145,20 +145,20 @@ html {
 }
 
 #home .content h3::after {
-  content: " A Computer Engineer";
+  content: "Frontend Developer";
   animation: textanim 10s linear infinite;
 }
 @keyframes textanim {
   25% {
-    content: " A Software Engineer";
+    content: "Backend Developer";
   }
 
   50% {
-    content: " A Web-Developer";
+    content: "Web-Developer";
   }
 
   75% {
-    content: " an AI Engineer";
+    content: "Fullstack Developer";
   }
 }
 
